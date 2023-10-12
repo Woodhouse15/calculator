@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button">#2a5491</color>
+    <color name="gray">#3f4944</color>
+    <color name="equalsButton">#237986</color>
+</resources>
