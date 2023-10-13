@@ -29,6 +29,7 @@
                 android:text="@string/clear"
                 android:textColor="@color/white"
                 android:textSize="25sp"
+                android:onClick="clear"
                 app:backgroundTint="@color/button" />
 
             <Button
@@ -39,7 +40,8 @@
                 android:backgroundTint="@color/button"
                 android:text="@string/open_bracket"
                 android:textColor="@color/white"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                android:onClick="input"/>
 
             <Button
                 android:id="@+id/closeBracket"
@@ -49,7 +51,8 @@
                 android:backgroundTint="@color/button"
                 android:text="@string/close_bracket"
                 android:textColor="@color/white"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                android:onClick="input"/>
 
             <Button
                 android:id="@+id/divide"
@@ -59,7 +62,8 @@
                 android:backgroundTint="@color/button"
                 android:textSize="25sp"
                 android:text="@string/divide"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:onClick="input"/>
         </TableRow>
 
         <TableRow
@@ -75,7 +79,8 @@
                 android:backgroundTint="@color/gray"
                 android:textSize="25sp"
                 android:text="@string/seven"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:onClick="input"/>
 
             <Button
                 android:id="@+id/eight"
@@ -85,7 +90,8 @@
                 android:backgroundTint="@color/gray"
                 android:textSize="25sp"
                 android:text="@string/eight"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:onClick="input"/>
 
             <Button
                 android:id="@+id/nine"
@@ -95,7 +101,8 @@
                 android:backgroundTint="@color/gray"
                 android:textSize="25sp"
                 android:text="@string/nine"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:onClick="input"/>
 
             <Button
                 android:id="@+id/multiply"
@@ -105,7 +112,8 @@
                 android:backgroundTint="@color/button"
                 android:textSize="25sp"
                 android:text="@string/mult"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:onClick="input"/>
         </TableRow>
 
         <TableRow
@@ -121,7 +129,8 @@
                 android:backgroundTint="@color/gray"
                 android:textSize="25sp"
                 android:text="@string/four"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:onClick="input"/>
 
             <Button
                 android:id="@+id/five"
@@ -131,7 +140,8 @@
                 android:backgroundTint="@color/gray"
                 android:textSize="25sp"
                 android:text="@string/five"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:onClick="input"/>
 
             <Button
                 android:id="@+id/six"
@@ -141,7 +151,8 @@
                 android:backgroundTint="@color/gray"
                 android:textSize="25sp"
                 android:text="@string/six"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:onClick="input"/>
 
             <Button
                 android:id="@+id/minus"
@@ -151,7 +162,8 @@
                 android:backgroundTint="@color/button"
                 android:textSize="25sp"
                 android:text="@string/minus"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:onClick="input"/>
 
         </TableRow>
 
@@ -168,7 +180,8 @@
                 android:backgroundTint="@color/gray"
                 android:textSize="25sp"
                 android:text="@string/one"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:onClick="input"/>
 
             <Button
                 android:id="@+id/two"
@@ -178,7 +191,8 @@
                 android:backgroundTint="@color/gray"
                 android:textSize="25sp"
                 android:text="@string/two"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:onClick="input"/>
 
             <Button
                 android:id="@+id/three"
@@ -188,7 +202,8 @@
                 android:backgroundTint="@color/gray"
                 android:textSize="25sp"
                 android:text="@string/three"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:onClick="input"/>
 
             <Button
                 android:id="@+id/plus"
@@ -198,7 +213,8 @@
                 android:backgroundTint="@color/button"
                 android:textSize="25sp"
                 android:text="@string/plus"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:onClick="input"/>
 
         </TableRow>
 
@@ -215,7 +231,8 @@
                 android:backgroundTint="@color/button"
                 android:text="@string/percentage"
                 android:textColor="@color/white"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                android:onClick="input"/>
 
             <Button
                 android:id="@+id/zero"
@@ -225,7 +242,8 @@
                 android:backgroundTint="@color/gray"
                 android:textSize="25sp"
                 android:text="@string/zero"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:onClick="input"/>
 
             <Button
                 android:id="@+id/decimal"
@@ -235,7 +253,8 @@
                 android:textSize="25sp"
                 android:backgroundTint="@color/button"
                 android:text="@string/decimal"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:onClick="input"/>
 
             <Button
                 android:id="@+id/equals"
@@ -245,7 +264,7 @@
                 android:textSize="25sp"
                 android:backgroundTint="@color/equalsButton"
                 android:text="@string/equals"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"/>
         </TableRow>
     </TableLayout>
 
@@ -259,6 +278,7 @@
         android:background="@drawable/circular_image_button"
         android:contentDescription="@string/backspace"
         android:src="@drawable/backspace_icon"
+        android:onClick="delete"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.634"
@@ -269,7 +289,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="25dp"
-        android:text=""
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/result"
         app:layout_constraintEnd_toEndOf="parent"
