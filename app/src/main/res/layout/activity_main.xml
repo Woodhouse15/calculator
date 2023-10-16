@@ -264,7 +264,8 @@
                 android:textSize="25sp"
                 android:backgroundTint="@color/equalsButton"
                 android:text="@string/equals"
-                android:textColor="@color/white"/>
+                android:textColor="@color/white"
+                android:onClick="equals"/>
         </TableRow>
     </TableLayout>
 

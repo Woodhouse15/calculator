@@ -21,4 +21,6 @@
     <string name="close_bracket">)</string>
     <string name="clear">C</string>
     <string name="backspace">backspace</string>
+    <string name="cannot_divide_by_0">Cannot divide by 0</string>
+    <string name="calculator">Calculator error</string>
 </resources>
